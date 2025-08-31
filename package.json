@@ -1,0 +1,13 @@
+{
+    "name": "melonity-scripts-template",
+    "scripts": {
+        "watch": "webpack --watch"
+    },
+    "devDependencies": {
+        "fork-ts-checker-webpack-plugin": "^8.0.0",
+        "glob": "^10.3.4",
+        "ts-loader": "^9.4.4",
+        "webpack": "^5.88.2",
+        "webpack-cli": "^5.1.4"
+    }
+}

@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"lib": ["ES2022"],
+		"target": "ES2022",
+		"sourceMap": true
+	},
+	"exclude": ["node_modules"],
+	"include": ["declarations/**/*.d.ts", "src/**/*.ts"]
+}
