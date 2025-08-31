@@ -18,19 +18,19 @@
 ## ⚡ Установка и запуск
 
 ```bash
-  git clone https://github.com/nofrfa/template-melonity-custom-scripts
-  cd "template-melonity-custom-scripts"
+git clone https://github.com/nofrfa/template-melonity-custom-scripts
+cd "template-melonity-custom-scripts"
 ```
 или используйте кнопку "Use this template" на GitHub.
 
 ### Установка зависимостей
 ```bash
-  npm install
+npm install
 ```
 
 ### Компиляция
 ```bash
-  npm run watch
+npm run watch
 ```
 
 ## 💡 Примечание
