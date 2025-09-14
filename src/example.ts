@@ -51,6 +51,10 @@ namespace example {
 		}
 	};
 
+	const SIZE = 64;
+	const ROUNDING = 8;
+	const CORNERS = Enum.RoundCorners.All;
+	
 	Example.OnDraw = () => {
 		/* Не надо тут сложную логику, пожалейте кадры */
 
@@ -58,11 +62,8 @@ namespace example {
 			return;
 		}
 
-		const SIZE = 64;
 		const [x, y] = [screenSize[0] / 2 - SIZE, screenSize[1] / 4 - SIZE];
-		const ROUNDING = 8;
-		const CORNERS = Enum.RoundCorners.All;
-
+		
 		Renderer.SetDrawColor(Color.YELLOW);
 		Renderer.DrawFilledRect(x, y, SIZE, SIZE, ROUNDING, CORNERS);
 		Renderer.SetDrawColor(Color.RED);
